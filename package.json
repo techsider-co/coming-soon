@@ -1,0 +1,16 @@
+{
+  "name": "achidemy-coming-soon",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev . --ip 127.0.0.1 --port 8788",
+    "deploy": "wrangler pages deploy . --project-name achidemy-coming-soon"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
+

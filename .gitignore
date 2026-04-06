@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.wrangler/
+
+# Local secrets (do not commit)
+.env
+.env.*
+.dev.vars
+

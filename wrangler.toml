@@ -1,0 +1,12 @@
+name = "achidemy-coming-soon"
+compatibility_date = "2026-04-06"
+
+# Cloudflare Pages (static + Functions)
+# We deploy the repository root as the Pages output directory.
+pages_build_output_dir = "."
+
+[vars]
+# Optional for deployment if you prefer setting it here.
+# Recommended: set DATABASE_URL in Cloudflare Pages → Settings → Environment variables instead.
+# DATABASE_URL = ""
+
