@@ -283,8 +283,9 @@
             background: #f1f5f9; /* slate-100 placeholder */
         }
 
-        .video-wrapper video, 
-        .video-wrapper iframe {
+        .video-wrapper video,
+        .video-wrapper iframe,
+        .video-wrapper img {
             position: absolute;
             top: 0;
             left: 0;
@@ -401,11 +402,20 @@
 
             <div class="video-section">
                 <div class="video-wrapper">
+                    
                     <video autoplay loop muted playsinline>
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="./achidemy.mov" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                </div>
+                    <!--
+                    <img
+                        src="./achidemy-home.png"
+                        alt="Achidemy — enterprise learning preview"
+                        width="1280"
+                        height="720"
+                        loading="lazy"
+                        decoding="async">
+                </div> -->
             </div>
 
         </main>
