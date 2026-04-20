@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler pages dev . --ip 127.0.0.1 --port 8788",
-    "deploy": "wrangler pages deploy . --project-name achidemy-coming-soon"
+    "deploy": "wrangler pages deploy . --project-name achidemy-coming-soon",
+    "deploy:preview": "wrangler pages deploy . --project-name achidemy-coming-soon --branch main",
+    "deploy:prod": "wrangler pages deploy . --project-name achidemy-coming-soon --branch production"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.1"
